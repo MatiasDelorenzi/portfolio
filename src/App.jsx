@@ -5,7 +5,8 @@ import {
   Portfolio,
   Contact,
   Testimonials,
-  Works
+  Works,
+  Menu
 } from './components';
 import { useState } from 'react';
 
@@ -16,12 +17,13 @@ function App() {
   return (
     <div className="app">
       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div className="sections">
         <Intro />
-        <Portfolio/>
-        <Works/>
-        <Testimonials/>
-        <Contact/>
+        <Portfolio />
+        <Works />
+        <Testimonials />
+        <Contact />
       </div>
     </div>
   );
