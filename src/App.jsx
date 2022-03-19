@@ -4,7 +4,6 @@ import {
   Topbar,
   Portfolio,
   Contact,
-  Testimonials,
   Works,
   Menu
 } from './components';
@@ -22,7 +21,6 @@ function App() {
         <Intro />
         <Portfolio />
         <Works />
-        <Testimonials />
         <Contact />
       </div>
     </div>
