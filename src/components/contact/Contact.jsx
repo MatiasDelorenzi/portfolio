@@ -1,4 +1,7 @@
 import { useState } from 'react';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import './contact.scss';
 
 export default function Contact() {
@@ -31,19 +34,13 @@ export default function Contact() {
           <h2>My socials.</h2>
           <div className="logos">
             <a href="https://github.com/MatiasDelorenzi" rel="noreferrer" target="_blank">
-              <div className='imageContainer'>
-                <img src="assets/github.png" className='linkedin' alt='' />
-              </div>
+              <GitHubIcon className='github'/>
             </a>
             <a href="https://www.linkedin.com/in/matias-delorenzi/" rel="noreferrer" target="_blank">
-              <div className='imageContainer'>
-                <img src="assets/linkedin.png" className='linkedin' alt='' />
-              </div>
+              <LinkedInIcon className='linkedin'/>
             </a>
             <a href="https://www.instagram.com/matias.delorenzi/?hl=es-la" rel="noreferrer" target="_blank">
-              <div className='imageContainer'>
-                <img src="assets/instagram.png" className='linkedin' alt='' />
-              </div>
+              <InstagramIcon className='instagram'/>
             </a>
           </div>
         </div>

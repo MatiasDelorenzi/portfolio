@@ -99,8 +99,6 @@
             align-items: center;
             justify-content: center;
 
-           
-
             h2{
                 font-size: 30px;
 
@@ -111,19 +109,47 @@
 
             .logos{
                 display: flex;
+                margin-top: 20px;
+                width: 22%;
+                justify-content: space-between;
                 
 
-                img{
-                    width: 60px;
+                .linkedin{
                     height: 60px;
-                    margin: 10px 10px;
-                    @include mobile{
-                        width: 40px;
-                        height: 40px;
+                    width: 60px;
+                    color: black;
+                    &:hover{
+                        color: #0e76a8;
+                        transition: all 0.5s ease;
+                        transform: scale(0.9);
+                    }
+                }
+
+                .github{
+                    height: 55px;
+                    width: 55px;
+                    color: black;
+                    &:hover{
+                        color: rgb(90, 90, 90);
+                        transition: all 0.5s ease;
+                        transform: scale(0.9);                        
+                    }
+                }
+
+                .instagram{
+                    height: 60px;
+                    width: 60px;
+                    color: black;
+                    &:hover{
+                        color: #C13584;
+                        transition: all 0.5s ease;
+                        transform: scale(0.9);
                     }
                 }
                 
             }
+
+            
         }
     }
 }
