@@ -6,7 +6,7 @@ export default function About() {
         <div className="left">
           <div className="wrapper">
             <h1>About Me.</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure rem suscipit excepturi officiis. Eligendi laudantium debitis dolor veritatis ipsum nisi officiis voluptatibus laboriosam? Sint recusandae dolor dolore, ratione amet dolorem?</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, libero tempora blanditiis excepturi vero laborum dolore, dicta quam placeat fugiat possimus, voluptas odit consectetur quasi mollitia vel deserunt. Repellat incidunt soluta accusantium modi. Pariatur ratione facere nulla accusantium aspernatur, maxime nam dolores eius quo nobis recusandae eligendi voluptatem reiciendis reprehenderit.</p>
           </div>
         </div>
         <div className="right">
